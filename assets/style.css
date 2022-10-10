@@ -1,0 +1,61 @@
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+    z-index: 1;
+}
+
+body {
+	font-family: Roboto, "Open Sans", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+	position: relative;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	overflow: hidden;
+	background-image: url('../assets/bg.webp');
+}
+
+section{
+    background-color: white;
+	text-align: center;
+    z-index: 2;
+    padding: 50px;
+	border-radius: 5px;
+	border: 1px solid #f00b51;
+	box-shadow: 0 0 10px 10px #282a7a;
+}
+
+h1{
+	font-size: 3rem;
+	font-family: Azonix,sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+	color:#f00b51;
+	text-shadow: 1px 1px 1px #000, 3px 3px 5px #282a7a;
+}
+
+@font-face {
+    font-family: Azonix;
+    src: url(Azonix.woff2) format("woff2");
+    font-weight: 500;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-display: swap
+}
+
+form {
+	display: flex;
+}
+
+#result {
+	display: block;
+}
